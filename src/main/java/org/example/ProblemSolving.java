@@ -13,15 +13,15 @@ public class ProblemSolving {
 
         String s = "abd(jnb)asdf";
         System.out.print("Test 1: ");
-        System.out.println(reverseParentheses(s));
+        System.out.println(reverseParentheses(s));  // Output:  "abd(bnj)asdf"
 
          s = "abdjnbasdf";
         System.out.print("Test 2: ");
-        System.out.println(reverseParentheses(s));
+        System.out.println(reverseParentheses(s));  // Output:  "abdjnbasdf""
 
          s = "dd(df)a(ghhh)";
         System.out.print("Test 3: ");
-        System.out.println(reverseParentheses(s));
+        System.out.println(reverseParentheses(s));  // Output:  "dd(fd)a(hhhg)"
     }
 
     public static String reverseParentheses(String s) {
